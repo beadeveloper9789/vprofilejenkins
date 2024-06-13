@@ -163,7 +163,7 @@
     </build>
 	<repositories>
     <repository>
-        <id>${NEXUS_GRP_REPO}</id>
+        <id>vprofile-grp-repo</id>
         <url>http://3.17.11.188:8081/vprofile-release/vprofile-grp-repo/</url>
     </repository>
     </repositories>
