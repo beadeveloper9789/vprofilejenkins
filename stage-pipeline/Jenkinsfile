@@ -16,17 +16,9 @@ pipeline {
         NEXUS_PASS = 'admin123'
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vprofile-maven-central'
-        NEXUSIP = '172.31.31.243'
+        NEXUSIP = '18.117.252.207'
         NEXUSPORT = '8081'
-        NEXUS_GRP_REPO = 'vprofile-maven-group'
-        NEXUS_LOGIN = 'nexuslogin'
-        SONARSERVER = 'sonarserver'
-        SONARSCANNER = 'sonarscanner'
-        ARTIFACT_NAME = "vprofile-v${BUILD_ID}.war"
-        AWS_S3_BUCKET = 'vprocicdbean-new'
-        AWS_EB_APP_NAME = 'vproapp'
-        AWS_EB_ENVIRONMENT = 'vproapp-env'
-        AWS_EB_APP_VERSION = "${BUILD_ID}"
+      
     }
 
     stages {
