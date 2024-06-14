@@ -19,7 +19,7 @@ pipeline {
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vprofile-central-repo'
         NEXUS_GRP_REPO = 'vprofile-grp-repo'
-        NEXUS_IP = '18.156.174.184'
+        NEXUS_IP = '3.66.166.74'
         NEXUS_PORT = '8081'
         NEXUS_LOGIN = "nexuslogin"
         SONARSERVER = 'sonarserver'
