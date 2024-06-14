@@ -15,12 +15,12 @@
       <password>${NEXUS_PASS}</password>
     </server>
         <server>
-        <id>${CENTRAL_REPO}</id>
+        <id>{CENTRAL_REPO}</id>
       <username>${NEXUS_USER}</username>
       <password>${NEXUS_PASS}</password>
     </server>
     <server>
-        <id>${NEXUS_GRP_REPO}</id>
+        <id>{NEXUS_GRP_REPO}</id>
       <username>${NEXUS_USER}</username>
       <password>${NEXUS_PASS}</password>
     </server>
@@ -30,8 +30,9 @@
     <mirror>
       <id>${CENTRAL_REPO}</id>
       <name>${CENTRAL_REPO}</name>
-      <url>http://54.186.173.45:8081/repository/vprofile-grp-repo/</url>
+      <url>http://${NEXUS_IP}:${NEXUS_PORT}/repository/${NEXUS_GRP_REPO}/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
+
 </settings>
