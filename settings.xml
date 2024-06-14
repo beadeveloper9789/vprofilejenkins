@@ -30,7 +30,7 @@
     <mirror>
       <id>${CENTRAL_REPO}</id>
       <name>${CENTRAL_REPO}</name>
-      <url></url>
+      <url>http://54.186.173.45:8081/repository/vprofile-grp-repo/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
